@@ -1,0 +1,280 @@
+{
+ "season": "20262027",
+ "skaters": [
+  {
+   "id": 8473533,
+   "first": "Jordan",
+   "last": "Staal",
+   "number": 11,
+   "pos": "C",
+   "gp": 6,
+   "g": 0,
+   "a": 0,
+   "p": 0
+  },
+  {
+   "id": 8475235,
+   "first": "Nicolas",
+   "last": "Deslauriers",
+   "number": 44,
+   "pos": "L",
+   "gp": 9,
+   "g": 2,
+   "a": 1,
+   "p": 3
+  },
+  {
+   "id": 8475791,
+   "first": "Taylor",
+   "last": "Hall",
+   "number": 71,
+   "pos": "L",
+   "gp": 8,
+   "g": 3,
+   "a": 2,
+   "p": 5
+  },
+  {
+   "id": 8476422,
+   "first": "Mike",
+   "last": "Reilly",
+   "number": 6,
+   "pos": "D",
+   "gp": 8,
+   "g": 0,
+   "a": 2,
+   "p": 2
+  },
+  {
+   "id": 8476873,
+   "first": "Mark",
+   "last": "Jankowski",
+   "number": 77,
+   "pos": "L",
+   "gp": 10,
+   "g": 6,
+   "a": 1,
+   "p": 7
+  },
+  {
+   "id": 8476906,
+   "first": "Shayne",
+   "last": "Gostisbehere",
+   "number": 4,
+   "pos": "D",
+   "gp": 14,
+   "g": 2,
+   "a": 7,
+   "p": 9
+  },
+  {
+   "id": 8476921,
+   "first": "Jordan",
+   "last": "Martinook",
+   "number": 48,
+   "pos": "L",
+   "gp": 14,
+   "g": 1,
+   "a": 5,
+   "p": 6
+  },
+  {
+   "id": 8476958,
+   "first": "Jaccob",
+   "last": "Slavin",
+   "number": 74,
+   "pos": "D",
+   "gp": 14,
+   "g": 0,
+   "a": 3,
+   "p": 3
+  },
+  {
+   "id": 8477478,
+   "first": "William",
+   "last": "Carrier",
+   "number": 28,
+   "pos": "L",
+   "gp": 14,
+   "g": 0,
+   "a": 8,
+   "p": 8
+  },
+  {
+   "id": 8477940,
+   "first": "Nikolaj",
+   "last": "Ehlers",
+   "number": 27,
+   "pos": "L",
+   "gp": 14,
+   "g": 4,
+   "a": 7,
+   "p": 11
+  },
+  {
+   "id": 8478427,
+   "first": "Sebastian",
+   "last": "Aho",
+   "number": 20,
+   "pos": "C",
+   "gp": 14,
+   "g": 8,
+   "a": 11,
+   "p": 19
+  },
+  {
+   "id": 8478970,
+   "first": "Jalen",
+   "last": "Chatfield",
+   "number": 5,
+   "pos": "D",
+   "gp": 14,
+   "g": 1,
+   "a": 2,
+   "p": 3
+  },
+  {
+   "id": 8479976,
+   "first": "Juuso",
+   "last": "Välimäki",
+   "number": 8,
+   "pos": "D",
+   "gp": 4,
+   "g": 1,
+   "a": 1,
+   "p": 2
+  },
+  {
+   "id": 8480291,
+   "first": "Skyler",
+   "last": "Brind'Amour",
+   "number": null,
+   "pos": "C",
+   "gp": 2,
+   "g": 0,
+   "a": 0,
+   "p": 0
+  },
+  {
+   "id": 8480336,
+   "first": "Sean",
+   "last": "Walker",
+   "number": 26,
+   "pos": "D",
+   "gp": 14,
+   "g": 1,
+   "a": 6,
+   "p": 7
+  },
+  {
+   "id": 8480762,
+   "first": "Eric",
+   "last": "Robinson",
+   "number": 50,
+   "pos": "L",
+   "gp": 14,
+   "g": 2,
+   "a": 4,
+   "p": 6
+  },
+  {
+   "id": 8480817,
+   "first": "K'Andre",
+   "last": "Miller",
+   "number": 19,
+   "pos": "D",
+   "gp": 14,
+   "g": 1,
+   "a": 3,
+   "p": 4
+  },
+  {
+   "id": 8480829,
+   "first": "Jesperi",
+   "last": "Kotkaniemi",
+   "number": 82,
+   "pos": "C",
+   "gp": 12,
+   "g": 3,
+   "a": 3,
+   "p": 6
+  },
+  {
+   "id": 8480830,
+   "first": "Andrei",
+   "last": "Svechnikov",
+   "number": 37,
+   "pos": "R",
+   "gp": 14,
+   "g": 6,
+   "a": 7,
+   "p": 13
+  },
+  {
+   "id": 8482093,
+   "first": "Seth",
+   "last": "Jarvis",
+   "number": 24,
+   "pos": "R",
+   "gp": 3,
+   "g": 1,
+   "a": 2,
+   "p": 3
+  },
+  {
+   "id": 8482702,
+   "first": "Logan",
+   "last": "Stankoven",
+   "number": 22,
+   "pos": "C",
+   "gp": 14,
+   "g": 8,
+   "a": 3,
+   "p": 11
+  },
+  {
+   "id": 8482809,
+   "first": "Jackson",
+   "last": "Blake",
+   "number": 53,
+   "pos": "R",
+   "gp": 14,
+   "g": 3,
+   "a": 11,
+   "p": 14
+  },
+  {
+   "id": 8484203,
+   "first": "Bradly",
+   "last": "Nadeau",
+   "number": null,
+   "pos": "L",
+   "gp": 3,
+   "g": 0,
+   "a": 2,
+   "p": 2
+  },
+  {
+   "id": 8484392,
+   "first": "Felix",
+   "last": "Unger Sörum",
+   "number": null,
+   "pos": "R",
+   "gp": 3,
+   "g": 0,
+   "a": 0,
+   "p": 0
+  },
+  {
+   "id": 8484428,
+   "first": "Charles Alexis",
+   "last": "Legault",
+   "number": null,
+   "pos": "D",
+   "gp": 2,
+   "g": 0,
+   "a": 0,
+   "p": 0
+  }
+ ]
+}

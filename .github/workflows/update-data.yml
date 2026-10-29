@@ -1,0 +1,52 @@
+# GitHub Actions workflow: refreshes the NHL data a few times a day.
+#
+# How it works: on the schedule below, GitHub starts a fresh virtual machine,
+# copies this repo onto it, runs scripts/update_data.py, and commits any
+# changed files in data/ back to the repo. GitHub Pages then serves the new data.
+
+name: Update NHL data
+
+on:
+  schedule:
+    # Times are UTC. These land at roughly 6am, noon, 6pm and midnight Eastern
+    # (an hour earlier in winter), so late-game results are picked up overnight.
+    - cron: "0 4,10,16,22 * * *"
+  # Adds a "Run workflow" button on the Actions tab so you can refresh any time.
+  workflow_dispatch:
+
+# Let the workflow commit to the repo.
+permissions:
+  contents: write
+
+# If two runs overlap, let the first finish instead of fighting over commits.
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch fresh data from the NHL API
+        run: python scripts/update_data.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes. Nothing to commit."
+          else
+            git commit -m "Update NHL data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

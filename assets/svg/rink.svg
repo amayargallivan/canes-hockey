@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 85" fill="none" stroke-width="0.8">
+  <!-- Original top-down rink diagram, used as a faint section background -->
+  <rect x="1" y="1" width="198" height="83" rx="28" stroke="#A2AAAD"/>
+  <line x1="12" y1="2" x2="12" y2="83" stroke="#CE1126"/>
+  <line x1="188" y1="2" x2="188" y2="83" stroke="#CE1126"/>
+  <line x1="75" y1="1" x2="75" y2="84" stroke="#4a7bd0" stroke-width="2"/>
+  <line x1="125" y1="1" x2="125" y2="84" stroke="#4a7bd0" stroke-width="2"/>
+  <line x1="100" y1="1" x2="100" y2="84" stroke="#CE1126" stroke-width="2" stroke-dasharray="3 1.5"/>
+  <circle cx="100" cy="42.5" r="15" stroke="#4a7bd0"/>
+  <circle cx="31" cy="20.5" r="15" stroke="#CE1126"/>
+  <circle cx="31" cy="64.5" r="15" stroke="#CE1126"/>
+  <circle cx="169" cy="20.5" r="15" stroke="#CE1126"/>
+  <circle cx="169" cy="64.5" r="15" stroke="#CE1126"/>
+  <circle cx="31" cy="20.5" r="1" fill="#CE1126"/>
+  <circle cx="31" cy="64.5" r="1" fill="#CE1126"/>
+  <circle cx="169" cy="20.5" r="1" fill="#CE1126"/>
+  <circle cx="169" cy="64.5" r="1" fill="#CE1126"/>
+  <path d="M12 37 a6 6 0 0 1 0 11" stroke="#4a7bd0"/>
+  <path d="M188 37 a6 6 0 0 0 0 11" stroke="#4a7bd0"/>
+</svg>

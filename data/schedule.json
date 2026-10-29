@@ -1,0 +1,1602 @@
+{
+ "season": 20262027,
+ "team": "CAR",
+ "games": [
+  {
+   "id": 2026020001,
+   "type": 2,
+   "date": "2026-09-29",
+   "startUTC": "2026-09-29T21:00:00Z",
+   "state": "OFF",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 0
+   },
+   "away": {
+    "abbrev": "FLA",
+    "name": "Florida Panthers",
+    "score": 1
+   },
+   "endedIn": "OT"
+  },
+  {
+   "id": 2026020018,
+   "type": 2,
+   "date": "2026-10-02",
+   "startUTC": "2026-10-02T23:00:00Z",
+   "state": "OFF",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 2
+   },
+   "away": {
+    "abbrev": "WSH",
+    "name": "Washington Capitals",
+    "score": 5
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020025,
+   "type": 2,
+   "date": "2026-10-03",
+   "startUTC": "2026-10-03T23:00:00Z",
+   "state": "OFF",
+   "venue": "Xfinity Mobile Arena",
+   "home": {
+    "abbrev": "PHI",
+    "name": "Philadelphia Flyers",
+    "score": 2
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 3
+   },
+   "endedIn": "OT"
+  },
+  {
+   "id": 2026020045,
+   "type": 2,
+   "date": "2026-10-06",
+   "startUTC": "2026-10-06T23:00:00Z",
+   "state": "OFF",
+   "venue": "Centre Bell",
+   "home": {
+    "abbrev": "MTL",
+    "name": "Montréal Canadiens",
+    "score": 4
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 6
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020061,
+   "type": 2,
+   "date": "2026-10-08",
+   "startUTC": "2026-10-08T23:00:00Z",
+   "state": "OFF",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 7
+   },
+   "away": {
+    "abbrev": "VAN",
+    "name": "Vancouver Canucks",
+    "score": 2
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020078,
+   "type": 2,
+   "date": "2026-10-10",
+   "startUTC": "2026-10-10T23:00:00Z",
+   "state": "OFF",
+   "venue": "United Center",
+   "home": {
+    "abbrev": "CHI",
+    "name": "Chicago Blackhawks",
+    "score": 2
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 5
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020086,
+   "type": 2,
+   "date": "2026-10-11",
+   "startUTC": "2026-10-11T23:00:00Z",
+   "state": "OFF",
+   "venue": "Xfinity Mobile Arena",
+   "home": {
+    "abbrev": "PHI",
+    "name": "Philadelphia Flyers",
+    "score": 1
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 4
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020093,
+   "type": 2,
+   "date": "2026-10-13",
+   "startUTC": "2026-10-13T22:45:00Z",
+   "state": "OFF",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 4
+   },
+   "away": {
+    "abbrev": "WSH",
+    "name": "Washington Capitals",
+    "score": 2
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020122,
+   "type": 2,
+   "date": "2026-10-17",
+   "startUTC": "2026-10-17T19:30:00Z",
+   "state": "OFF",
+   "venue": "Canada Life Centre",
+   "home": {
+    "abbrev": "WPG",
+    "name": "Winnipeg Jets",
+    "score": 2
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 3
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020136,
+   "type": 2,
+   "date": "2026-10-18",
+   "startUTC": "2026-10-19T00:00:00Z",
+   "state": "OFF",
+   "venue": "Scotiabank Saddledome",
+   "home": {
+    "abbrev": "CGY",
+    "name": "Calgary Flames",
+    "score": 3
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 2
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020150,
+   "type": 2,
+   "date": "2026-10-20",
+   "startUTC": "2026-10-21T02:00:00Z",
+   "state": "OFF",
+   "venue": "Rogers Arena",
+   "home": {
+    "abbrev": "VAN",
+    "name": "Vancouver Canucks",
+    "score": 3
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 6
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020163,
+   "type": 2,
+   "date": "2026-10-22",
+   "startUTC": "2026-10-23T01:00:00Z",
+   "state": "OFF",
+   "venue": "Rogers Place",
+   "home": {
+    "abbrev": "EDM",
+    "name": "Edmonton Oilers",
+    "score": 6
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 5
+   },
+   "endedIn": "SO"
+  },
+  {
+   "id": 2026020175,
+   "type": 2,
+   "date": "2026-10-24",
+   "startUTC": "2026-10-24T23:00:00Z",
+   "state": "OFF",
+   "venue": "Enterprise Center",
+   "home": {
+    "abbrev": "STL",
+    "name": "St. Louis Blues",
+    "score": 0
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 4
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020189,
+   "type": 2,
+   "date": "2026-10-27",
+   "startUTC": "2026-10-28T00:00:00Z",
+   "state": "OFF",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": 2
+   },
+   "away": {
+    "abbrev": "BOS",
+    "name": "Boston Bruins",
+    "score": 1
+   },
+   "endedIn": "REG"
+  },
+  {
+   "id": 2026020206,
+   "type": 2,
+   "date": "2026-10-29",
+   "startUTC": "2026-10-29T23:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CBJ",
+    "name": "Columbus Blue Jackets",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020227,
+   "type": 2,
+   "date": "2026-11-01",
+   "startUTC": "2026-11-01T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "WPG",
+    "name": "Winnipeg Jets",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020245,
+   "type": 2,
+   "date": "2026-11-03",
+   "startUTC": "2026-11-04T01:00:00Z",
+   "state": "FUT",
+   "venue": "Bridgestone Arena",
+   "home": {
+    "abbrev": "NSH",
+    "name": "Nashville Predators",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020255,
+   "type": 2,
+   "date": "2026-11-05",
+   "startUTC": "2026-11-06T00:00:00Z",
+   "state": "FUT",
+   "venue": "UBS Arena",
+   "home": {
+    "abbrev": "NYI",
+    "name": "New York Islanders",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020271,
+   "type": 2,
+   "date": "2026-11-07",
+   "startUTC": "2026-11-08T01:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CHI",
+    "name": "Chicago Blackhawks",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020309,
+   "type": 2,
+   "date": "2026-11-12",
+   "startUTC": "2026-11-12T17:00:00Z",
+   "state": "FUT",
+   "venue": "Veikkaus Arena",
+   "home": {
+    "abbrev": "SEA",
+    "name": "Seattle Kraken",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020321,
+   "type": 2,
+   "date": "2026-11-14",
+   "startUTC": "2026-11-14T18:00:00Z",
+   "state": "FUT",
+   "venue": "Veikkaus Arena",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "SEA",
+    "name": "Seattle Kraken",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020352,
+   "type": 2,
+   "date": "2026-11-19",
+   "startUTC": "2026-11-20T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "MTL",
+    "name": "Montréal Canadiens",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020359,
+   "type": 2,
+   "date": "2026-11-21",
+   "startUTC": "2026-11-21T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "EDM",
+    "name": "Edmonton Oilers",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020373,
+   "type": 2,
+   "date": "2026-11-22",
+   "startUTC": "2026-11-22T17:30:00Z",
+   "state": "FUT",
+   "venue": "Madison Square Garden",
+   "home": {
+    "abbrev": "NYR",
+    "name": "New York Rangers",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020388,
+   "type": 2,
+   "date": "2026-11-25",
+   "startUTC": "2026-11-26T00:00:00Z",
+   "state": "FUT",
+   "venue": "Benchmark International Arena",
+   "home": {
+    "abbrev": "TBL",
+    "name": "Tampa Bay Lightning",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020421,
+   "type": 2,
+   "date": "2026-11-28",
+   "startUTC": "2026-11-29T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "OTT",
+    "name": "Ottawa Senators",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020431,
+   "type": 2,
+   "date": "2026-11-30",
+   "startUTC": "2026-12-01T00:00:00Z",
+   "state": "FUT",
+   "venue": "Madison Square Garden",
+   "home": {
+    "abbrev": "NYR",
+    "name": "New York Rangers",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020453,
+   "type": 2,
+   "date": "2026-12-03",
+   "startUTC": "2026-12-04T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CBJ",
+    "name": "Columbus Blue Jackets",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020471,
+   "type": 2,
+   "date": "2026-12-05",
+   "startUTC": "2026-12-06T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "TOR",
+    "name": "Toronto Maple Leafs",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020490,
+   "type": 2,
+   "date": "2026-12-08",
+   "startUTC": "2026-12-09T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NYR",
+    "name": "New York Rangers",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020512,
+   "type": 2,
+   "date": "2026-12-11",
+   "startUTC": "2026-12-12T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NYI",
+    "name": "New York Islanders",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020527,
+   "type": 2,
+   "date": "2026-12-13",
+   "startUTC": "2026-12-13T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "BOS",
+    "name": "Boston Bruins",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020541,
+   "type": 2,
+   "date": "2026-12-15",
+   "startUTC": "2026-12-16T00:00:00Z",
+   "state": "FUT",
+   "venue": "Nationwide Arena",
+   "home": {
+    "abbrev": "CBJ",
+    "name": "Columbus Blue Jackets",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020558,
+   "type": 2,
+   "date": "2026-12-17",
+   "startUTC": "2026-12-18T02:00:00Z",
+   "state": "FUT",
+   "venue": "Delta Center",
+   "home": {
+    "abbrev": "UTA",
+    "name": "Utah Mammoth",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020565,
+   "type": 2,
+   "date": "2026-12-18",
+   "startUTC": "2026-12-19T02:00:00Z",
+   "state": "FUT",
+   "venue": "Ball Arena",
+   "home": {
+    "abbrev": "COL",
+    "name": "Colorado Avalanche",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020589,
+   "type": 2,
+   "date": "2026-12-21",
+   "startUTC": "2026-12-22T03:00:00Z",
+   "state": "FUT",
+   "venue": "T-Mobile Arena",
+   "home": {
+    "abbrev": "VGK",
+    "name": "Vegas Golden Knights",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020606,
+   "type": 2,
+   "date": "2026-12-26",
+   "startUTC": "2026-12-27T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "PIT",
+    "name": "Pittsburgh Penguins",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020623,
+   "type": 2,
+   "date": "2026-12-28",
+   "startUTC": "2026-12-29T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "TBL",
+    "name": "Tampa Bay Lightning",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020630,
+   "type": 2,
+   "date": "2026-12-29",
+   "startUTC": "2026-12-30T00:00:00Z",
+   "state": "FUT",
+   "venue": "PPG Paints Arena",
+   "home": {
+    "abbrev": "PIT",
+    "name": "Pittsburgh Penguins",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020643,
+   "type": 2,
+   "date": "2026-12-31",
+   "startUTC": "2026-12-31T19:00:00Z",
+   "state": "FUT",
+   "venue": "Little Caesars Arena",
+   "home": {
+    "abbrev": "DET",
+    "name": "Detroit Red Wings",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020659,
+   "type": 2,
+   "date": "2027-01-02",
+   "startUTC": "2027-01-03T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NSH",
+    "name": "Nashville Predators",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020681,
+   "type": 2,
+   "date": "2027-01-05",
+   "startUTC": "2027-01-06T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "STL",
+    "name": "St. Louis Blues",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020698,
+   "type": 2,
+   "date": "2027-01-07",
+   "startUTC": "2027-01-08T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "PIT",
+    "name": "Pittsburgh Penguins",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020712,
+   "type": 2,
+   "date": "2027-01-09",
+   "startUTC": "2027-01-10T00:00:00Z",
+   "state": "FUT",
+   "venue": "KeyBank Center",
+   "home": {
+    "abbrev": "BUF",
+    "name": "Buffalo Sabres",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020728,
+   "type": 2,
+   "date": "2027-01-12",
+   "startUTC": "2027-01-13T00:00:00Z",
+   "state": "FUT",
+   "venue": "TD Garden",
+   "home": {
+    "abbrev": "BOS",
+    "name": "Boston Bruins",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020748,
+   "type": 2,
+   "date": "2027-01-14",
+   "startUTC": "2027-01-15T00:00:00Z",
+   "state": "FUT",
+   "venue": "Capital One Arena",
+   "home": {
+    "abbrev": "WSH",
+    "name": "Washington Capitals",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020755,
+   "type": 2,
+   "date": "2027-01-15",
+   "startUTC": "2027-01-16T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "PHI",
+    "name": "Philadelphia Flyers",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020774,
+   "type": 2,
+   "date": "2027-01-17",
+   "startUTC": "2027-01-17T23:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "VGK",
+    "name": "Vegas Golden Knights",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020800,
+   "type": 2,
+   "date": "2027-01-21",
+   "startUTC": "2027-01-22T00:00:00Z",
+   "state": "FUT",
+   "venue": "Amerant Bank Arena",
+   "home": {
+    "abbrev": "FLA",
+    "name": "Florida Panthers",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020817,
+   "type": 2,
+   "date": "2027-01-23",
+   "startUTC": "2027-01-24T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "ANA",
+    "name": "Anaheim Ducks",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020832,
+   "type": 2,
+   "date": "2027-01-25",
+   "startUTC": "2027-01-26T00:30:00Z",
+   "state": "FUT",
+   "venue": "Canadian Tire Centre",
+   "home": {
+    "abbrev": "OTT",
+    "name": "Ottawa Senators",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020836,
+   "type": 2,
+   "date": "2027-01-26",
+   "startUTC": "2027-01-27T00:00:00Z",
+   "state": "FUT",
+   "venue": "Centre Bell",
+   "home": {
+    "abbrev": "MTL",
+    "name": "Montréal Canadiens",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020851,
+   "type": 2,
+   "date": "2027-01-28",
+   "startUTC": "2027-01-28T23:30:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NYI",
+    "name": "New York Islanders",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020872,
+   "type": 2,
+   "date": "2027-01-30",
+   "startUTC": "2027-01-31T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "LAK",
+    "name": "Los Angeles Kings",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020898,
+   "type": 2,
+   "date": "2027-02-09",
+   "startUTC": "2027-02-10T00:30:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "COL",
+    "name": "Colorado Avalanche",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020904,
+   "type": 2,
+   "date": "2027-02-11",
+   "startUTC": "2027-02-12T00:30:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "MIN",
+    "name": "Minnesota Wild",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020921,
+   "type": 2,
+   "date": "2027-02-13",
+   "startUTC": "2027-02-14T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "BUF",
+    "name": "Buffalo Sabres",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020939,
+   "type": 2,
+   "date": "2027-02-16",
+   "startUTC": "2027-02-17T00:00:00Z",
+   "state": "FUT",
+   "venue": "Scotiabank Arena",
+   "home": {
+    "abbrev": "TOR",
+    "name": "Toronto Maple Leafs",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020951,
+   "type": 2,
+   "date": "2027-02-18",
+   "startUTC": "2027-02-19T00:00:00Z",
+   "state": "FUT",
+   "venue": "KeyBank Center",
+   "home": {
+    "abbrev": "BUF",
+    "name": "Buffalo Sabres",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020962,
+   "type": 2,
+   "date": "2027-02-19",
+   "startUTC": "2027-02-20T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "DET",
+    "name": "Detroit Red Wings",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020977,
+   "type": 2,
+   "date": "2027-02-21",
+   "startUTC": "2027-02-21T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NYR",
+    "name": "New York Rangers",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026020993,
+   "type": 2,
+   "date": "2027-02-23",
+   "startUTC": "2027-02-24T00:30:00Z",
+   "state": "FUT",
+   "venue": "Prudential Center",
+   "home": {
+    "abbrev": "NJD",
+    "name": "New Jersey Devils",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021006,
+   "type": 2,
+   "date": "2027-02-25",
+   "startUTC": "2027-02-26T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "SJS",
+    "name": "San Jose Sharks",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021024,
+   "type": 2,
+   "date": "2027-02-27",
+   "startUTC": "2027-02-28T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "TBL",
+    "name": "Tampa Bay Lightning",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021038,
+   "type": 2,
+   "date": "2027-03-01",
+   "startUTC": "2027-03-02T00:00:00Z",
+   "state": "FUT",
+   "venue": "Nationwide Arena",
+   "home": {
+    "abbrev": "CBJ",
+    "name": "Columbus Blue Jackets",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021050,
+   "type": 2,
+   "date": "2027-03-03",
+   "startUTC": "2027-03-04T00:00:00Z",
+   "state": "FUT",
+   "venue": "Capital One Arena",
+   "home": {
+    "abbrev": "WSH",
+    "name": "Washington Capitals",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021065,
+   "type": 2,
+   "date": "2027-03-05",
+   "startUTC": "2027-03-06T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "TOR",
+    "name": "Toronto Maple Leafs",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021082,
+   "type": 2,
+   "date": "2027-03-07",
+   "startUTC": "2027-03-07T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "UTA",
+    "name": "Utah Mammoth",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021098,
+   "type": 2,
+   "date": "2027-03-09",
+   "startUTC": "2027-03-10T01:00:00Z",
+   "state": "FUT",
+   "venue": "Grand Casino Arena",
+   "home": {
+    "abbrev": "MIN",
+    "name": "Minnesota Wild",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021119,
+   "type": 2,
+   "date": "2027-03-12",
+   "startUTC": "2027-03-13T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CGY",
+    "name": "Calgary Flames",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021128,
+   "type": 2,
+   "date": "2027-03-13",
+   "startUTC": "2027-03-14T00:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NJD",
+    "name": "New Jersey Devils",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021152,
+   "type": 2,
+   "date": "2027-03-16",
+   "startUTC": "2027-03-17T02:30:00Z",
+   "state": "FUT",
+   "venue": "Honda Center",
+   "home": {
+    "abbrev": "ANA",
+    "name": "Anaheim Ducks",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021170,
+   "type": 2,
+   "date": "2027-03-18",
+   "startUTC": "2027-03-19T02:00:00Z",
+   "state": "FUT",
+   "venue": "Crypto.com Arena",
+   "home": {
+    "abbrev": "LAK",
+    "name": "Los Angeles Kings",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021185,
+   "type": 2,
+   "date": "2027-03-20",
+   "startUTC": "2027-03-21T02:30:00Z",
+   "state": "FUT",
+   "venue": "SAP Center at San Jose",
+   "home": {
+    "abbrev": "SJS",
+    "name": "San Jose Sharks",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021201,
+   "type": 2,
+   "date": "2027-03-23",
+   "startUTC": "2027-03-24T00:00:00Z",
+   "state": "FUT",
+   "venue": "American Airlines Center",
+   "home": {
+    "abbrev": "DAL",
+    "name": "Dallas Stars",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021216,
+   "type": 2,
+   "date": "2027-03-25",
+   "startUTC": "2027-03-25T23:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "DAL",
+    "name": "Dallas Stars",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021234,
+   "type": 2,
+   "date": "2027-03-27",
+   "startUTC": "2027-03-27T23:00:00Z",
+   "state": "FUT",
+   "venue": "PPG Paints Arena",
+   "home": {
+    "abbrev": "PIT",
+    "name": "Pittsburgh Penguins",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021244,
+   "type": 2,
+   "date": "2027-03-29",
+   "startUTC": "2027-03-29T23:00:00Z",
+   "state": "FUT",
+   "venue": "Prudential Center",
+   "home": {
+    "abbrev": "NJD",
+    "name": "New Jersey Devils",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021252,
+   "type": 2,
+   "date": "2027-03-30",
+   "startUTC": "2027-03-30T23:30:00Z",
+   "state": "FUT",
+   "venue": "UBS Arena",
+   "home": {
+    "abbrev": "NYI",
+    "name": "New York Islanders",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021272,
+   "type": 2,
+   "date": "2027-04-02",
+   "startUTC": "2027-04-02T23:00:00Z",
+   "state": "FUT",
+   "venue": "Little Caesars Arena",
+   "home": {
+    "abbrev": "DET",
+    "name": "Detroit Red Wings",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021281,
+   "type": 2,
+   "date": "2027-04-03",
+   "startUTC": "2027-04-03T21:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "NJD",
+    "name": "New Jersey Devils",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021296,
+   "type": 2,
+   "date": "2027-04-05",
+   "startUTC": "2027-04-05T18:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "PHI",
+    "name": "Philadelphia Flyers",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021313,
+   "type": 2,
+   "date": "2027-04-07",
+   "startUTC": "2027-04-07T23:00:00Z",
+   "state": "FUT",
+   "venue": "Lenovo Center",
+   "home": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "away": {
+    "abbrev": "OTT",
+    "name": "Ottawa Senators",
+    "score": null
+   },
+   "endedIn": null
+  },
+  {
+   "id": 2026021334,
+   "type": 2,
+   "date": "2027-04-10",
+   "startUTC": "2027-04-10T22:00:00Z",
+   "state": "FUT",
+   "venue": "Amerant Bank Arena",
+   "home": {
+    "abbrev": "FLA",
+    "name": "Florida Panthers",
+    "score": null
+   },
+   "away": {
+    "abbrev": "CAR",
+    "name": "Carolina Hurricanes",
+    "score": null
+   },
+   "endedIn": null
+  }
+ ]
+}

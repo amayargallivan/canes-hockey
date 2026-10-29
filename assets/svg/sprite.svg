@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Original artwork for this fan site. Reused with <use href="assets/svg/sprite.svg#name">. -->
+
+  <!-- Two crossed hockey sticks -->
+  <symbol id="sticks" viewBox="0 0 120 100">
+    <g id="stick">
+      <!-- shaft -->
+      <line x1="14" y1="8" x2="78" y2="78" stroke="#C9CED1" stroke-width="7" stroke-linecap="round"/>
+      <!-- knob tape -->
+      <line x1="14" y1="8" x2="24" y2="19" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+      <!-- blade -->
+      <path d="M74 72 L83 82 Q92 92 112 90 L113 82 Q96 83 86 72 Z" fill="#CE1126"/>
+      <!-- blade tape stripes -->
+      <path d="M93 85 L95 79 M100 87 L101 81 M107 88 L107 82" stroke="#111" stroke-width="2"/>
+    </g>
+    <use href="#stick" transform="translate(120 0) scale(-1 1)"/>
+  </symbol>
+
+  <!-- A puck seen at an angle -->
+  <symbol id="puck" viewBox="0 0 48 28">
+    <path d="M2 10 v8 a22 8 0 0 0 44 0 v-8" fill="#0b0b0b"/>
+    <ellipse cx="24" cy="10" rx="22" ry="8" fill="#2a2a2a"/>
+    <ellipse cx="24" cy="10" rx="16" ry="5" fill="none" stroke="#3a3a3a" stroke-width="1"/>
+  </symbol>
+</svg>

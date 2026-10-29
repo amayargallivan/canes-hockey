@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storm Watch · Canes Fan Hub</title>
+  <meta name="description" content="A fan-made Carolina Hurricanes dashboard: record, playoff race, schedule, leaders and NHL standings.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 28'%3E%3Cpath d='M2 10v8a22 8 0 0 0 44 0v-8' fill='%23CE1126'/%3E%3Cellipse cx='24' cy='10' rx='22' ry='8' fill='%23ff3b52'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Graduate&family=Inter:wght@400;600;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header: crossed sticks + weather-radar storm ===== -->
+  <header class="site-header">
+    <div class="wind" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <svg class="radar" viewBox="0 0 200 200" aria-hidden="true">
+      <defs>
+        <radialGradient id="cell-hot" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#ff3b52" stop-opacity=".95"/>
+          <stop offset=".45" stop-color="#CE1126" stop-opacity=".7"/>
+          <stop offset="1" stop-color="#CE1126" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="cell-cool" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#d9dee1" stop-opacity=".55"/>
+          <stop offset="1" stop-color="#A2AAAD" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="sweep-fade" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#ff3b52" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ff3b52" stop-opacity=".45"/>
+        </linearGradient>
+      </defs>
+      <!-- range rings and crosshairs -->
+      <g fill="none" stroke="#A2AAAD" stroke-opacity=".25">
+        <circle cx="100" cy="100" r="95"/><circle cx="100" cy="100" r="70"/>
+        <circle cx="100" cy="100" r="45"/><circle cx="100" cy="100" r="20"/>
+        <path d="M100 5v190M5 100h190"/>
+      </g>
+      <!-- storm "returns": a squall line of rain bands drifting across the scope -->
+      <g class="radar-cells">
+        <ellipse cx="62" cy="70" rx="34" ry="16" fill="url(#cell-cool)" transform="rotate(-25 62 70)"/>
+        <ellipse cx="128" cy="120" rx="42" ry="18" fill="url(#cell-cool)" transform="rotate(-25 128 120)"/>
+        <ellipse cx="88" cy="96" rx="30" ry="12" fill="url(#cell-hot)" transform="rotate(-25 88 96)"/>
+        <ellipse cx="118" cy="82" rx="18" ry="9" fill="url(#cell-hot)" transform="rotate(-25 118 82)"/>
+        <ellipse cx="140" cy="140" rx="16" ry="8" fill="url(#cell-hot)" transform="rotate(-25 140 140)"/>
+        <ellipse cx="54" cy="128" rx="12" ry="6" fill="url(#cell-hot)" transform="rotate(-25 54 128)"/>
+      </g>
+      <!-- rotating sweep arm -->
+      <g class="radar-sweep">
+        <path d="M100 100 L195 100 A95 95 0 0 0 167 33 Z" fill="url(#sweep-fade)"/>
+        <line x1="100" y1="100" x2="195" y2="100" stroke="#ff3b52" stroke-width="1.5"/>
+      </g>
+    </svg>
+
+    <div class="brand">
+      <svg class="brand-sticks" aria-hidden="true"><use href="assets/svg/sprite.svg#sticks"/></svg>
+      <div>
+        <p class="eyebrow">Carolina Hurricanes fan hub</p>
+        <h1>Storm <span>Watch</span></h1>
+      </div>
+    </div>
+    <p class="updated" id="last-updated">Checking the radar…</p>
+  </header>
+
+  <!-- ===== Storm Surge celebration (shown only after a Canes win) ===== -->
+  <section class="surge" id="surge" hidden aria-live="polite">
+    <svg class="goal-light" viewBox="0 0 60 80" aria-hidden="true">
+      <rect x="14" y="62" width="32" height="14" rx="3" fill="#2b2b2e"/>
+      <rect x="20" y="56" width="20" height="8" fill="#1b1b1d"/>
+      <path class="goal-light-dome" d="M12 58 V30 a18 18 0 0 1 36 0 V58 Z" fill="#CE1126"/>
+      <path d="M18 30 a12 12 0 0 1 10 -12" stroke="#fff" stroke-opacity=".6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </svg>
+    <div>
+      <p class="surge-title">Storm Surge!</p>
+      <p class="surge-detail" id="surge-detail"></p>
+    </div>
+    <svg class="goal-light" viewBox="0 0 60 80" aria-hidden="true">
+      <rect x="14" y="62" width="32" height="14" rx="3" fill="#2b2b2e"/>
+      <rect x="20" y="56" width="20" height="8" fill="#1b1b1d"/>
+      <path class="goal-light-dome" d="M12 58 V30 a18 18 0 0 1 36 0 V58 Z" fill="#CE1126"/>
+      <path d="M18 30 a12 12 0 0 1 10 -12" stroke="#fff" stroke-opacity=".6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </svg>
+  </section>
+
+  <main id="main">
+    <!-- ===== Spotlight scoreboard ===== -->
+    <section class="section rink-bg" aria-labelledby="spotlight-h">
+      <h2 id="spotlight-h" class="section-title">Hurricanes Spotlight</h2>
+      <div id="scoreboard" class="scoreboard" data-section="team stats">
+        <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+      </div>
+    </section>
+
+    <div class="grid-2">
+      <section class="card" aria-labelledby="playoff-h">
+        <h2 id="playoff-h" class="card-title">Road to the Playoffs</h2>
+        <div id="playoff-race" data-section="playoff race">
+          <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+        </div>
+      </section>
+
+      <section class="card next-game" aria-labelledby="next-h">
+        <h2 id="next-h" class="card-title">Next Puck Drop</h2>
+        <div id="next-game" data-section="next game">
+          <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="stick-divider" aria-hidden="true"><svg><use href="assets/svg/sprite.svg#sticks"/></svg></div>
+
+    <div class="grid-2">
+      <section class="card" aria-labelledby="last5-h">
+        <h2 id="last5-h" class="card-title">Last 5</h2>
+        <div id="last-five" data-section="recent results">
+          <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="upcoming-h">
+        <h2 id="upcoming-h" class="card-title">Upcoming Schedule</h2>
+        <div id="upcoming" data-section="schedule">
+          <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" aria-labelledby="leaders-h">
+      <h2 id="leaders-h" class="card-title">Team Leaders</h2>
+      <div id="leaders" class="leaders" data-section="team leaders">
+        <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="pace-h">
+      <h2 id="pace-h" class="card-title">Points Pace</h2>
+      <div id="pace" data-section="points pace">
+        <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+      </div>
+    </section>
+
+    <div class="stick-divider" aria-hidden="true"><svg><use href="assets/svg/sprite.svg#sticks"/></svg></div>
+
+    <!-- ===== League standings ===== -->
+    <section class="section" aria-labelledby="standings-h">
+      <div class="standings-head">
+        <h2 id="standings-h" class="section-title">NHL Standings</h2>
+        <div class="tabs" role="tablist" aria-label="Standings view">
+          <button role="tab" id="tab-division" aria-selected="true" aria-controls="standings">Division</button>
+          <button role="tab" id="tab-wildcard" aria-selected="false" aria-controls="standings" tabindex="-1">Wild Card</button>
+        </div>
+      </div>
+      <div id="standings" role="tabpanel" aria-labelledby="tab-division" data-section="standings">
+        <div class="loader" role="status"><span class="puck-spin"></span>Dropping the puck…</div>
+      </div>
+      <p class="fineprint" id="standings-updated"></p>
+    </section>
+
+    <div class="stick-divider" aria-hidden="true"><svg><use href="assets/svg/sprite.svg#sticks"/></svg></div>
+
+    <!-- ===== Build your own jersey ===== -->
+    <section class="card jersey-builder" aria-labelledby="jersey-h">
+      <h2 id="jersey-h" class="card-title">Build Your Own Jersey</h2>
+      <div class="jersey-layout">
+        <div id="jersey-preview" class="jersey-preview"></div>
+        <form id="jersey-form" class="jersey-form" autocomplete="off">
+          <label>Name on the back
+            <input id="jersey-name" type="text" maxlength="14" value="FAN" spellcheck="false">
+          </label>
+          <label>Number
+            <input id="jersey-number" type="text" inputmode="numeric" maxlength="2" value="22">
+          </label>
+          <fieldset>
+            <legend>Jersey color</legend>
+            <label class="swatch"><input type="radio" name="jersey-color" value="red" checked><span class="sw sw-red"></span>Red</label>
+            <label class="swatch"><input type="radio" name="jersey-color" value="black"><span class="sw sw-black"></span>Black</label>
+            <label class="swatch"><input type="radio" name="jersey-color" value="white"><span class="sw sw-white"></span>White</label>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-puck" aria-hidden="true"><use href="assets/svg/sprite.svg#puck"/></svg>
+    <p><strong>Fan-made site. Not affiliated with the NHL or the Carolina Hurricanes.</strong></p>
+    <p>Stats come from the NHL's public web API and refresh a few times a day. All artwork is original.</p>
+  </footer>
+
+  <script src="js/jersey.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

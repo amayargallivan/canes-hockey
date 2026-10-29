@@ -1,0 +1,24 @@
+{
+ "lastRun": "2026-10-29T21:23:39Z",
+ "sources": {
+  "standings": {
+   "lastAttempt": "2026-10-29T21:23:38Z",
+   "ok": true,
+   "error": null,
+   "lastSuccess": "2026-10-29T21:23:38Z"
+  },
+  "schedule": {
+   "lastAttempt": "2026-10-29T21:23:38Z",
+   "ok": true,
+   "error": null,
+   "lastSuccess": "2026-10-29T21:23:38Z"
+  },
+  "stats": {
+   "lastAttempt": "2026-10-29T21:23:38Z",
+   "ok": true,
+   "error": null,
+   "lastSuccess": "2026-10-29T21:23:38Z"
+  }
+ },
+ "lastUpdated": "2026-10-29T21:23:38Z"
+}
