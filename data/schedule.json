@@ -273,19 +273,19 @@
    "type": 2,
    "date": "2026-10-29",
    "startUTC": "2026-10-29T23:00:00Z",
-   "state": "FUT",
+   "state": "FINAL",
    "venue": "Lenovo Center",
    "home": {
     "abbrev": "CAR",
     "name": "Carolina Hurricanes",
-    "score": null
+    "score": 3
    },
    "away": {
     "abbrev": "CBJ",
     "name": "Columbus Blue Jackets",
-    "score": null
+    "score": 2
    },
-   "endedIn": null
+   "endedIn": "REG"
   },
   {
    "id": 2026020227,
