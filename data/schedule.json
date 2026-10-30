@@ -273,7 +273,7 @@
    "type": 2,
    "date": "2026-10-29",
    "startUTC": "2026-10-29T23:00:00Z",
-   "state": "FINAL",
+   "state": "OFF",
    "venue": "Lenovo Center",
    "home": {
     "abbrev": "CAR",

@@ -1,24 +1,24 @@
 {
- "lastRun": "2026-10-30T01:43:01Z",
+ "lastRun": "2026-10-30T10:45:59Z",
  "sources": {
   "standings": {
-   "lastAttempt": "2026-10-30T01:42:59Z",
+   "lastAttempt": "2026-10-30T10:45:59Z",
    "ok": true,
    "error": null,
-   "lastSuccess": "2026-10-30T01:42:59Z"
+   "lastSuccess": "2026-10-30T10:45:59Z"
   },
   "schedule": {
-   "lastAttempt": "2026-10-30T01:43:00Z",
+   "lastAttempt": "2026-10-30T10:45:59Z",
    "ok": true,
    "error": null,
-   "lastSuccess": "2026-10-30T01:43:00Z"
+   "lastSuccess": "2026-10-30T10:45:59Z"
   },
   "stats": {
-   "lastAttempt": "2026-10-30T01:43:01Z",
+   "lastAttempt": "2026-10-30T10:45:59Z",
    "ok": true,
    "error": null,
-   "lastSuccess": "2026-10-30T01:43:01Z"
+   "lastSuccess": "2026-10-30T10:45:59Z"
   }
  },
- "lastUpdated": "2026-10-30T01:43:01Z"
+ "lastUpdated": "2026-10-30T10:45:59Z"
 }
