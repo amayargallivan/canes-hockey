@@ -292,17 +292,17 @@
    "type": 2,
    "date": "2026-11-01",
    "startUTC": "2026-11-01T18:00:00Z",
-   "state": "FUT",
+   "state": "LIVE",
    "venue": "Lenovo Center",
    "home": {
     "abbrev": "CAR",
     "name": "Carolina Hurricanes",
-    "score": null
+    "score": 7
    },
    "away": {
     "abbrev": "WPG",
     "name": "Winnipeg Jets",
-    "score": null
+    "score": 0
    },
    "endedIn": null
   },
