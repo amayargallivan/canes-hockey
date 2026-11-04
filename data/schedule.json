@@ -311,17 +311,17 @@
    "type": 2,
    "date": "2026-11-03",
    "startUTC": "2026-11-04T01:00:00Z",
-   "state": "FUT",
+   "state": "LIVE",
    "venue": "Bridgestone Arena",
    "home": {
     "abbrev": "NSH",
     "name": "Nashville Predators",
-    "score": null
+    "score": 1
    },
    "away": {
     "abbrev": "CAR",
     "name": "Carolina Hurricanes",
-    "score": null
+    "score": 0
    },
    "endedIn": null
   },
