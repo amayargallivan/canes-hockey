@@ -330,7 +330,7 @@
    "type": 2,
    "date": "2026-11-05",
    "startUTC": "2026-11-06T00:00:00Z",
-   "state": "LIVE",
+   "state": "OFF",
    "venue": "UBS Arena",
    "home": {
     "abbrev": "NYI",
@@ -340,9 +340,9 @@
    "away": {
     "abbrev": "CAR",
     "name": "Carolina Hurricanes",
-    "score": 3
+    "score": 5
    },
-   "endedIn": null
+   "endedIn": "REG"
   },
   {
    "id": 2026020271,
