@@ -330,17 +330,17 @@
    "type": 2,
    "date": "2026-11-05",
    "startUTC": "2026-11-06T00:00:00Z",
-   "state": "FUT",
+   "state": "LIVE",
    "venue": "UBS Arena",
    "home": {
     "abbrev": "NYI",
     "name": "New York Islanders",
-    "score": null
+    "score": 3
    },
    "away": {
     "abbrev": "CAR",
     "name": "Carolina Hurricanes",
-    "score": null
+    "score": 3
    },
    "endedIn": null
   },
